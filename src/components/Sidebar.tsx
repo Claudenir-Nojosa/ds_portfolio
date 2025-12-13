@@ -8,7 +8,7 @@ import { SiKaggle } from "react-icons/si";
 const Sidebar: React.FC = () => {
   const { t, i18n, ready } = useTranslation();
   const [isLoading, setIsLoading] = useState(true);
-
+// teste
   // Aguarda o i18n estar pronto
   useEffect(() => {
     if (ready) {
