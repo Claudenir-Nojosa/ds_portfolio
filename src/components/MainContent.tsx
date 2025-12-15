@@ -1,5 +1,6 @@
 "use client";
 
+import { useParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -28,9 +29,13 @@ interface Study {
   description?: string;
 }
 
-const MainContent: React.FC = () => {
+interface MainContentProps {}
+
+const MainContent: React.FC<MainContentProps> = () => {
   const { t, i18n, ready } = useTranslation();
   const [isLoading, setIsLoading] = useState(true);
+  const params = useParams();
+  const lang = (params.lang as string) || "pt";
 
   useEffect(() => {
     if (ready) {
@@ -129,7 +134,7 @@ const MainContent: React.FC = () => {
             </li>
             <li>
               <a
-                href="https://seublog.com"
+                href={`https://gargantua-blog.vercel.app/${lang}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-blue-800 dark:hover:text-blue-300"
@@ -351,7 +356,7 @@ const MainContent: React.FC = () => {
           </li>
           <li>
             <a
-              href="https://seublog.com"
+               href={`https://gargantua-blog.vercel.app/${lang}`}
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-800 dark:hover:text-blue-300"
@@ -426,7 +431,7 @@ const MainContent: React.FC = () => {
           {t("main.blogDescription")}
         </p>
         <a
-          href="https://seublog.com"
+          href={`https://gargantua-blog.vercel.app/${lang}`}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium"
