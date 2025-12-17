@@ -174,11 +174,8 @@ const MainContent: React.FC<MainContentProps> = () => {
                 </a>
               </div>
             </li>
-            {/* ... outros projetos em português ... */}
           </ul>
         </section>
-
-        {/* ... resto do conteúdo em português ... */}
       </div>
     );
   }
@@ -278,10 +275,12 @@ const MainContent: React.FC<MainContentProps> = () => {
     {
       title: t("main.dataAnalysis"),
       links: [
-        { text: "Pandas para Manipulação de Dados", url: "#" },
-        { text: "Visualização com Matplotlib e Seaborn", url: "#" },
-        { text: "Análise Estatística com SciPy", url: "#" },
-        { text: "Dashboards com Streamlit", url: "#" },
+        {
+          text: "An Introduction do Statistical Learning",
+          url: "https://drive.google.com/file/d/1aQGxh3YDL7SYequMdS_aFlkA-fuZ1aX8/view",
+        },
+        { text: "Data Science for Business", url: "https://drive.google.com/file/d/12N_22LxpB4VG5aN56-yWz7AJMAQqyUzm/view?usp=sharing" },
+        { text: "Storytelling with Data", url: "https://drive.google.com/file/d/1d4DTLouqLkrADSLZG7Au1MGENxew4IZ9/view?usp=sharing" },
       ],
       description: t("main.pythonDescription"),
     },
@@ -356,7 +355,7 @@ const MainContent: React.FC<MainContentProps> = () => {
           </li>
           <li>
             <a
-               href={`https://gargantua-blog.vercel.app/${lang}`}
+              href={`https://gargantua-blog.vercel.app/${lang}`}
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-800 dark:hover:text-blue-300"
@@ -408,6 +407,7 @@ const MainContent: React.FC<MainContentProps> = () => {
                   <li key={linkIndex}>
                     <a
                       href={link.url}
+                      target="_blank"
                       className="hover:text-blue-800 dark:hover:text-blue-300"
                     >
                       {link.text}

@@ -76,7 +76,7 @@ const resources = {
       "main.machineLearning": "Advanced Machine Learning",
       "main.mlDescription":
         "Exploration of advanced machine learning and deep learning techniques.",
-      "main.dataAnalysis": "Data Analysis with Python",
+      "main.dataAnalysis": "Books",
       "main.pythonDescription":
         "Tutorials and practical data analysis projects using Python.",
 
@@ -164,7 +164,7 @@ const resources = {
       "main.machineLearning": "Machine Learning Avançado",
       "main.mlDescription":
         "Exploração de técnicas avançadas de machine learning e deep learning.",
-      "main.dataAnalysis": "Análise de Dados com Python",
+      "main.dataAnalysis": "Livros",
       "main.pythonDescription":
         "Tutoriais e projetos práticos de análise de dados utilizando Python.",
 
@@ -251,7 +251,7 @@ const resources = {
       "main.machineLearning": "Fortgeschrittenes Maschinelles Lernen",
       "main.mlDescription":
         "Erkundung fortgeschrittener Techniken des maschinellen Lernens und Deep Learning.",
-      "main.dataAnalysis": "Datenanalyse mit Python",
+      "main.dataAnalysis": "Bücher",
       "main.pythonDescription":
         "Tutorials und praktische Datenanalyseprojekte mit Python.",
 
