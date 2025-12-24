@@ -253,7 +253,7 @@ const MainContent: React.FC<MainContentProps> = () => {
       title: t("main.bayesianStats"),
       links: [
         { text: "Entropy - Decision Trees", url: "https://rawcdn.githack.com/Claudenir-Nojosa/ML-Studies/741788bfe0b98e5f6fc57315d1157dc0cb4d64c7/pt/entropy-study/entropy-study.html" },
-        { text: "Pandas", url: "https://rawcdn.githack.com/Claudenir-Nojosa/ML-Studies/6007a2ed6a2cb7eaf16aab4e3d1c681d72504759/pt/pandas-tutorial/Pandas-Tutorial.html" },
+        { text: "Pandas", url: "https://rawcdn.githack.com/Claudenir-Nojosa/ML-Studies/51223171e2e7d5854c74d274fb7d21ba486efe48/pt/pandas-tutorial/Pandas-Tutorial.html" },
         {
           text: "Matplotlib",
           url: "https://rawcdn.githack.com/Claudenir-Nojosa/ML-Studies/6007a2ed6a2cb7eaf16aab4e3d1c681d72504759/pt/matplotlib-tutorial/Matplotlib%20Tutorial.html",
@@ -264,6 +264,7 @@ const MainContent: React.FC<MainContentProps> = () => {
         { text: "Linear Regression", url: "https://rawcdn.githack.com/Claudenir-Nojosa/ML-Studies/6007a2ed6a2cb7eaf16aab4e3d1c681d72504759/pt/linear-regression-pt.html" },
         { text: "Math Behind Linear Regression", url: "https://rawcdn.githack.com/Claudenir-Nojosa/ML-Studies/6007a2ed6a2cb7eaf16aab4e3d1c681d72504759/pt/math-behind-linear-regression-pt.html" },
         { text: "Training/Test Set", url: "https://rawcdn.githack.com/Claudenir-Nojosa/ML-Studies/6007a2ed6a2cb7eaf16aab4e3d1c681d72504759/pt/training_test_set-pt.html" },
+          { text: "Próximo", url: "$" },
       ],
       description: t("main.bayesianDescription"),
     },
