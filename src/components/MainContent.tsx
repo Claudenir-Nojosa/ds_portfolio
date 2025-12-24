@@ -252,13 +252,18 @@ const MainContent: React.FC<MainContentProps> = () => {
     {
       title: t("main.bayesianStats"),
       links: [
-        { text: "Introdução à Inferência Bayesiana", url: "#" },
+        { text: "Entropy - Decision Trees", url: "https://rawcdn.githack.com/Claudenir-Nojosa/ML-Studies/741788bfe0b98e5f6fc57315d1157dc0cb4d64c7/pt/entropy-study/entropy-study.html" },
+        { text: "Pandas", url: "https://rawcdn.githack.com/Claudenir-Nojosa/ML-Studies/6007a2ed6a2cb7eaf16aab4e3d1c681d72504759/pt/pandas-tutorial/Pandas-Tutorial.html" },
         {
-          text: "MCMC: Métodos de Monte Carlo via Cadeias de Markov",
-          url: "#",
+          text: "Matplotlib",
+          url: "https://rawcdn.githack.com/Claudenir-Nojosa/ML-Studies/6007a2ed6a2cb7eaf16aab4e3d1c681d72504759/pt/matplotlib-tutorial/Matplotlib%20Tutorial.html",
         },
-        { text: "Distribuições Conjugadas e Priors", url: "#" },
-        { text: "Modelos Hierárquicos Bayesianos", url: "#" },
+        { text: "Seaborn", url: "https://rawcdn.githack.com/Claudenir-Nojosa/ML-Studies/6007a2ed6a2cb7eaf16aab4e3d1c681d72504759/pt/seaborn-tutorial/Seaborn-Tutorial.html" },
+        { text: "Pyplot", url: "https://rawcdn.githack.com/Claudenir-Nojosa/ML-Studies/6007a2ed6a2cb7eaf16aab4e3d1c681d72504759/pt/pyplot-tutorial/Pyplot-Tutorial.html" },
+        { text: "Bias-Variance Tradeoff", url: "https://rawcdn.githack.com/Claudenir-Nojosa/ML-Studies/6007a2ed6a2cb7eaf16aab4e3d1c681d72504759/pt/bias-variance%20tradeoff-pt.html" },
+        { text: "Linear Regression", url: "https://rawcdn.githack.com/Claudenir-Nojosa/ML-Studies/6007a2ed6a2cb7eaf16aab4e3d1c681d72504759/pt/linear-regression-pt.html" },
+        { text: "Math Behind Linear Regression", url: "https://rawcdn.githack.com/Claudenir-Nojosa/ML-Studies/6007a2ed6a2cb7eaf16aab4e3d1c681d72504759/pt/math-behind-linear-regression-pt.html" },
+        { text: "Training/Test Set", url: "https://rawcdn.githack.com/Claudenir-Nojosa/ML-Studies/6007a2ed6a2cb7eaf16aab4e3d1c681d72504759/pt/training_test_set-pt.html" },
       ],
       description: t("main.bayesianDescription"),
     },
