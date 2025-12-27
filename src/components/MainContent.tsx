@@ -271,7 +271,7 @@ const MainContent: React.FC<MainContentProps> = () => {
     {
       title: t("main.machineLearning"),
       links: [
-        { text: "Redes Neurais Profundas", url: "#" },
+        { text: "Mathematics for Data Science - Theory, Intuition, and Practice", url: "https://rawcdn.githack.com/Claudenir-Nojosa/ML-Studies/c2b58c0fce84b69bee14cf35d06068278e205245/en/Mathematics_for_Data_Science/mathematics_for_data_science.html" },
         { text: "Aprendizado por Reforço", url: "#" },
         { text: "Processamento de Linguagem Natural", url: "#" },
         { text: "Visão Computacional", url: "#" },
